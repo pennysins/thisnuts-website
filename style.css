@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/back.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+#container1 .container{
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.752);
+        
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+b{
+    color: aqua;
+}
+
+
+.profile {
+    text-align: center;
+   
+}
+.header{
+        font-size: 25px;
+}
+
+.balbla{
+
+    font-size: 20px;
+}
+
+
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.profile h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #5f5f5f;
+    margin-top: 10px;
+}
+li{
+        font-size: 25px;
+        color:white;
+}
+p{
+        color:white;
+        font-size: 20px;
+}
+   
+a{
+        color: #fcf81c
+        
+}
+
+.social-media-icon-size {
+    font-size: 25px;
+}
+       
+img.pic{
+        width: 80px;
+        height: 80px;
+        border-radius: 10%;
+}
+span{
+        color:white;
+}
+
+.face{
+
+    color: azure;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+@media only screen and (max-width: 600px) {
+        .container{
+               width: 100%;
+        }
+        
+}
+
+
+.logos2{
+
+    color: blue;
+    font-size: 30px;
+    padding-left: 5px;
+
+}
+
+.logos1{
+
+    color: blue;
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.logos3{
+
+    color: rgb(255, 0, 221);
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+
+.logos4{
+
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    padding-left: 30px;
+}
